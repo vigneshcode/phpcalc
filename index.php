@@ -8,9 +8,19 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>ACFT Calculator</title>
-        <script type="text/javascript" src="JS/acft.js"></script>
-        <link rel="stylesheet" type="text/css" href="CSS/acft.css"></link>
-       
+        
+        <link rel="stylesheet" type="text/css" href="CSS/acft.css">
+        
+        <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></link>-->
+<!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="JS/acft.js"></script>
+  <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+
+        
+        
     </head>
     <body>
         <header class="header">
@@ -30,14 +40,8 @@ and open the template in the editor.
                  MOS
              </div>
                    <div class="dvTableCellLeft">
-                       <select id="optMOS" name="optMOS">
-                           <option>15D</option>
-                           <option>15F</option>
-                           <option>15E</option>
-                           <option>15H</option>
+                       <input  id="optMOS" onchange="alert(value);">
                            
-                       </select>
-                 
              </div>
             </div>
           
@@ -51,6 +55,9 @@ and open the template in the editor.
                Raw Score
              
             </div>
+                <div class="dvTableCellLeft" style="background-color:#A0B385; height: 50px;">
+                    Points
+                </div>
             </div>
             <!--Table row-->
             <div class="dvTableRow"> 
@@ -61,6 +68,9 @@ and open the template in the editor.
                        <input type="text" class="usrInput" name="txtdl" maxlength="3" id="txtdl">
                        <span class="spanunit">lbs</span>
              </div>
+                 <div class="dvTableCellLeft">
+                    Points
+                </div>
             </div>
             <!--Table row-->
             <div class="dvTableRowAlt"> 
@@ -71,6 +81,9 @@ and open the template in the editor.
                  <input type="text" class="usrInput" maxlength="4" name="txtpt" style="width:55px" id="txtpt">
                  <span class="spanunit">metre's</span>
              </div>
+                  <div class="dvTableCellLeft">
+                    Points
+                </div>
             </div>
             
             <!--Table row-->
@@ -82,6 +95,9 @@ and open the template in the editor.
                  <input type="text" class="usrInput" name="txtPusUp" max="150" id="txtPusUp">
                  <span class="spanunit">rep's</span>
              </div>
+                  <div class="dvTableCellLeft">
+                    Points
+                </div>
             </div>
             
             <!--Table row-->
@@ -95,6 +111,9 @@ and open the template in the editor.
                  <input type="text" class="usrInput" name="txtspDrCarSec" maxlength="2" id="txtspDrCarSec">
                  <span class="spanunit">ss</span>
              </div>
+                  <div class="dvTableCellLeft">
+                    Points
+                </div>
             </div>
             
             <!--Table row-->
@@ -106,6 +125,9 @@ and open the template in the editor.
                  <input type="text" class="usrInput" name="txtLegTuck" max="50" id="txtLegTuck">
                  <span class="spanunit">rep's</span>
              </div>
+                  <div class="dvTableCellLeft">
+                    Points
+                </div>
             </div>
             
           <!--Table row-->
@@ -122,6 +144,9 @@ and open the template in the editor.
                   <input type="text" class="usrInput" name="txt2Msec" maxlength="2" id="txt2Msec">
                  <span class="spanunit">ss</span>
              </div>
+                  <div class="dvTableCellLeft">
+                    Points
+                </div>
             </div>
     
            <!--Table row-->
