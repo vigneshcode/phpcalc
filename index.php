@@ -11,10 +11,10 @@ and open the template in the editor.
         
         <link rel="stylesheet" type="text/css" href="CSS/acft.css">
         
-        <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></link>-->
+<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></link>-->
 <!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="JS/acft.js"></script>
   <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
@@ -40,9 +40,28 @@ and open the template in the editor.
                  MOS
              </div>
                    <div class="dvTableCellLeft">
+                       
                        <input  id="optMOS" onchange="alert(value);">
-                           
+                       <a id="enlist" href="#" onclick="openpopup()"> Enlisted</a>
+                       <div class="popupMOS"  id="popupform"> 
+                           <ul onclick="closepopup()">
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               <li>12D Inteek</li>
+                               
+                           </ul>
+                       </div>
              </div>
+                <div class="acftlevel" ><span>Significant</span>jj</div>
             </div>
           
             <!--Table row-->

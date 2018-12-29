@@ -31,3 +31,14 @@ $( function() {
     });
   } );
   
+  function openpopup(){
+      var ahre=document.getElementById("enlist");
+      
+      var pp=document.getElementById("popupform");
+      pp.style.left=ahre.style.left;
+      pp.style.top=ahre.style.top;
+              pp.style.display="block";
+  }
+  function closepopup(){
+      document.getElementById("popupform").style.display="none";
+  }
