@@ -6,6 +6,20 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <link rel="icon" 
+      type="image/png" 
+      href="Image/calc.png">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131523848-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131523848-1');
+</script>
+
         <meta charset="UTF-8">
         <title>ACFT Calculator</title>
         
@@ -16,7 +30,7 @@ and open the template in the editor.
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="JS/acft.js"></script>
+
   <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
 <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -24,102 +38,8 @@ and open the template in the editor.
         
     </head>
     <body>
-        <style>
-
-
-
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 1px 0;
-  position: relative;
-}
-
-
-
-.container {
-  padding: 10px;
- 
-}
-
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 50%;
-  height: 50%;
-    overflow: scroll;
- /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-
-li {
-display:inline-flex;
-width:80px;
-list-style-type: none;
-  border-color:burlywood;
-  border-style:solid;
-  border-width: 1px;
-  
-}
-li:hover{
- 
-  background-color: rgba(195, 182, 39, 0.9);
-  cursor:pointer;
-}
-</style>
-
-
+       
+<!-- MODAL-->
 <div id="id01" class="modal">
   <div class="animate modal-content">
     <div class="imgcontainer" style="background-color:#f1f1f1">
@@ -133,185 +53,28 @@ li:hover{
   </div>
 </div>
 
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-var acftlevel=["na","HEAVY","SIGNIFICANT","MODERATE"];
-var MOS={
- officerMOS:{
-    //heavy-1,significant-2,moderate-3
-    "11A":"1Infantry",
-    "12A":"1Engineer",
-    "09C":"3Trainee Language",
-    "09D":"3College Trainee",
-    "09E":"3Trainee Language, Fort Allen PR",
-    "09J":"3GED Completion Program",
-    "09L":"3Interpreter/Translator",
-    "09M":"3March 2 Success",
-    "09N":"3Nurse Corps Candidate"
-},
-
- warMOS:{
-    //heavy-1,significant-2,moderate-3
-    "120A":"3Construction Engineering Technician",
-    "125D":"3Geospatial Engineering Technicican",
-    "09C":"3Trainee Language",
-    "09D":"3College Trainee",
-    "09E":"3Trainee Language, Fort Allen PR",
-    "09J":"3GED Completion Program",
-    "09L":"3Interpreter/Translator",
-    "09M":"3March 2 Success",
-    "09N":"3Nurse Corps Candidate"
-},
- enlistedMOS:{
-    //heavy-1,significant-2,moderate-3
-    
-     "00Z":"3Sergeant Major Nominative",
-    "09B":"3Trainee Unassigned",
-    "09C":"3Trainee Language",
-    "09D":"3College Trainee",
-    "09E":"3Trainee Language, Fort Allen PR",
-    "09J":"3GED Completion Program",
-    "09L":"3Interpreter/Translator",
-    "09M":"3March 2 Success",
-    "09N":"3Nurse Corps Candidate"
-    }
-};
-function listMOS(Cursel){
-var lsMOS=document.getElementById("ulEnlistedMOS");
-
-var loopli;
-var selectedMOS;
-
-
-while(lsMOS.hasChildNodes()){
-    lsMOS.removeChild(lsMOS.firstChild);
-    
-}
-switch(Cursel)
-{
-    case 1:
-         selectedMOS=MOS.officerMOS;
-        break;
-    case 2:
-         selectedMOS=MOS.warMOS;
-        break;
-    default:
-        selectedMOS=MOS.enlistedMOS;
-}
-for (loopli in selectedMOS){
-    
-    var liMOS=document.createElement("li");
-    
-    liMOS.setAttribute("data-n",selectedMOS[loopli]);
-    liMOS.innerHTML=loopli;
-    lsMOS.appendChild(liMOS);
-
-}
-
-var ulChild=document.getElementById("ulEnlistedMOS").children;
-
-for(var i=0 ;i<ulChild.length;i++)
-{
-
-            var mylist =ulChild[i];
-            mylist.onclick=getmyMOS;
-           
-            
-}
-document.getElementById('id01').style.display='block';
-}
-function getmyMOS(){
-   
-    pMOS= this.innerHTML;
-    var txtMOS= document.getElementById("optMOS");
-    
-        txtMOS.value =pMOS;
-       document.getElementById("spnMOSdesc").innerHTML=getDesc(this.getAttribute("data-n"));
-       var divAcftLevel= document.getElementById("dvacftlevel");
-       divAcftLevel.setAttribute("data-lv",getLevel(this.getAttribute("data-n")));
-       divAcftLevel.innerHTML=acftlevel[getLevel(this.getAttribute("data-n"))];
-       divAcftLevel.className="acftlevel"+getLevel(this.getAttribute("data-n"));
-    document.getElementById('id01').style.display='none';
-    }
-
-function getMOSManual(e){
-    
-   //find in MOS
-   
-   var key=e.toUpperCase();
-   var keyvalue;
-   var sp=document.getElementById("spnMOSdesc");
-     var divAcftLevel= document.getElementById("dvacftlevel");
-     
-     
-    
-  
-   if(key in MOS.enlistedMOS)
-   {
-       
-               keyvalue=MOS.enlistedMOS[key];       
-   }
-   else if(key in MOS.officerMOS)
-   {
-       
-               keyvalue=MOS.officerMOS[key];
-   }
-   else if(key in MOS.warMOS){
-       
-               keyvalue=MOS.warMOS[key];
-   }
-   else
-   {
-       keyvalue="N/A";
-   }
-   
-   sp.innerHTML=getDesc(keyvalue);
-   
-   if(keyvalue!=="N/A"){
-         divAcftLevel.setAttribute("data-lv",getLevel(keyvalue));
-       divAcftLevel.className="acftlevel"+getLevel(keyvalue);
-       divAcftLevel.innerHTML=acftlevel[getLevel(keyvalue)];
-   }
-   else{
-   divAcftLevel.setAttribute("data-lv",0);
-       divAcftLevel.className="acftlevel";
-   }
-}
-function getDesc(pVal){
-    return pVal.substr(1);
-}
-function getLevel(pVal){
-    return pVal.charAt(0);
-}
-</script>
-
         <header class="header">
             <h1> ACFT Calculator</h1> 
         </header>
         
         
-        <section>
+      
             
 <!--           Table-->
             
 <div class="dvTable CenterLayout">
     
        <!--Table row-->
-            <div class="dvTableRow"> 
-             <div class="dvTableCellRight">
-                 MOS
-             </div>
-                   <div class="dvTableCellLeft">
+            <div class="dvTable dvsubTable dvtblHeader" > 
+             <div class="dvTableRow" >
+                 <div class="alert">
+                <span class="alertclosebtn" onclick="alertclose(this);">&times;</span> 
+                 <p id='spnerrordesc'></p>
+                 </div>
+              </div>
+                <div class="dvTableRow">
+                 Select MOS
+
                        
                        <input  type="text" id="optMOS" maxlength="4"  onchange="getMOSManual(this.value);">
                        <button id="btnoff" class="btnopenfrom" onclick="listMOS(1)">Officer</button>
@@ -320,19 +83,20 @@ function getLevel(pVal){
                        
 
              </div>
-                
-            </div>
-         <!--Table row-->
-            <div class="dvTableRow"> 
-             <div class="dvTableCellRight" >
-                <span id='spnMOSdesc'></span>
+                <div class="dvTableRow" >
+                <p id='spnMOSdesc'></p>
              </div>
+                 <div class="dvTableRow" >
                    <div id="dvacftlevel" class="acftlevel">
                       
              </div>
-                
             </div>
-          
+                </div>
+         <!--Table MOS row-->
+           
+         
+         
+          <div class="dvTable dvtblcontent" style="width:100%" >
             <!--Table row-->
             <div class="dvTableRowAlt"> 
              <div class="dvTableCellRight" style="background-color:#847520;; height: 50px;">
@@ -353,11 +117,11 @@ function getLevel(pVal){
                  Dead Lift
              </div>
                    <div class="dvTableCellLeft">
-                       <input type="text" class="usrInput" name="txtdl" maxlength="3" id="txtdl">
+                       <input type="text" class="usrInput"  name="txtdl" maxlength="3" onchange="onDeadliftchange(this.value)" id="txtdl">
                        <span class="spanunit">lbs</span>
              </div>
                  <div class="dvTableCellLeft">
-                    Points
+                    <input type="text" maxlength="3" data-sc="1" disabled id="spnDlftScore" class="spnScore"></span>
                 </div>
             </div>
             <!--Table row-->
@@ -370,7 +134,7 @@ function getLevel(pVal){
                  <span class="spanunit">metre's</span>
              </div>
                   <div class="dvTableCellLeft">
-                    Points
+                     <input type="text" maxlength="3" disabled data-sc="1" id="spnPowerScore" class="spnScore"></span>
                 </div>
             </div>
             
@@ -384,7 +148,7 @@ function getLevel(pVal){
                  <span class="spanunit">rep's</span>
              </div>
                   <div class="dvTableCellLeft">
-                    Points
+                     <input type="text" maxlength="3" disabled data-sc="1" id="spnPUScore" class="spnScore"></span>
                 </div>
             </div>
             
@@ -400,7 +164,7 @@ function getLevel(pVal){
                  <span class="spanunit">ss</span>
              </div>
                   <div class="dvTableCellLeft">
-                    Points
+                     <input type="text" maxlength="3" disabled data-sc="1" id="spnSDragScore" class="spnScore"></span>
                 </div>
             </div>
             
@@ -414,7 +178,7 @@ function getLevel(pVal){
                  <span class="spanunit">rep's</span>
              </div>
                   <div class="dvTableCellLeft">
-                    Points
+                   <input type="text" maxlength="3" disabled data-sc="1" id="spnLtScore" class="spnScore"></span>
                 </div>
             </div>
             
@@ -433,35 +197,34 @@ function getLevel(pVal){
                  <span class="spanunit">ss</span>
              </div>
                   <div class="dvTableCellLeft">
-                    Points
+                    <input type="text" maxlength="3" disabled data-sc="1" id="spnRunScore" class="spnScore"></span>
                 </div>
             </div>
-    
+           </div>
            <!--Table row-->
+           <div class="dvTable dvsubTable dvtblFooter" style="background-color: #e7e3e3;" >
             <div class="dvTableRow"> 
-             <div class="dvTableCellRight">
-           Score:
+             
+           Score: <input type="text" maxlength="3" disabled id="spnacftScore" class="spnScore"></span>
+           <span id="spnNOGO" class="spnScore danger"></span>
+           <button id="btnReset" class="btnopenfrom" onclick="resetAll();">Reset</button>
              </div>
-                   <div class="dvTableCellLeft">
-                 
-             </div>
-            </div>
-    
+                   
+           </div>
+     </div>
 </div>
 
-         
+</div>       
 <footer class="footer">
-    <h6>&copy;Copyright ACFT Calculator</h6>
+    <h4 style="color:red;">Note:Scores calculated are based on draft scoring sheet.These will be updated once army publishes the standard.</h4>
+    <h6>&copy;Copyright AcftCalculator.org</h6>
     <img src="Image/running-track.jpg"/>
 </footer>
             
-        </section>
+       
         <?php
         // put your code here
         ?>
-<script>
-
-
-</script>
+<script type="text/javascript" src="JS/acft.js"></script>
     </body>
 </html>

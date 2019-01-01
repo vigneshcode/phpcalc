@@ -33,19 +33,28 @@ img{
     
     padding:0px;
     margin: 0px;*/
-height:100px;
- text-align: center;
- 
-    margin-bottom: 0;
+    height:100px;
+    text-align: center;
+    background-image: linear-gradient(#D2C376, #9F880E);
+    
+    margin-bottom: 10px;
     background-color: #F1E291;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
-    border-radius: 1px;
+    border-radius: 5px;
+    border-color: #F0D339;
+    border-style: solid;
     font-family: Montserrat, sans-serif;
+     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
    
+}
+.header h1{
+    padding-top: 2%;
 }
 
 .dvTable{
@@ -58,6 +67,11 @@ height:100px;
     border-color: #847520;
     border-radius: 5px;
     
+}
+.dvsubTable{
+     width:100%;
+     background-color: gray;
+     text-align: center;
 }
 .dvTableRow{
 /*    background-color: #A0B385  ;*/
@@ -77,6 +91,10 @@ height:100px;
     display:table-cell;
     
 }
+.dvTableCell{
+    display:table-row;
+    text-align: justify;
+}
 
 .spanunit{
     font-style: italic;
@@ -91,33 +109,72 @@ height:100px;
     display:table-cell;
   
 }
-
+ .dvtblHeader
+{
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dvtblFooter {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.dvtblcontent{
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+     border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 div .acftlevel1{
-    width:100px;    height: 30px;       
+         
+text-align: center;
+float: right;
+margin-right: 10px;
+width: 120px;
+height: 30px; 
     /*animation-name: test;*/
-    content: "HEAVY";
-    animation-duration: 2s;
-    background-color: black;
-    color:white;
+    
+animation-duration: 2s;
+background-color: black;
+color:white;
 }
 div .acftlevel3{
-    width:100px;    height: 30px;       
+    text-align: center;
+float: right;
+margin-right: 10px;
+width: 120px;
+height: 30px;       
     /*animation-name: test;*/
-    content: "MODERATE";
-    animation-duration: 2s;
-    background-color: #edaa09;
+
+animation-duration: 2s;
+background-color: #edaa09;
 }
 div .acftlevel2{
-    width:100px;    height: 30px;       
+    text-align: center;
+float: right;
+margin-right: 10px;
+width: 120px;
+height: 30px;     
     /*animation-name: test;*/
-     content: "SIGNIFICANT";
-    animation-duration: 2s;
-    background-color: #7c786d;
+     
+animation-duration: 2s;
+background-color: #7c786d;
 }
 @keyframes test
 {
     from{width:0px;}
     to{width:70px;background-color: black;  }
+}
+#spnMOSdesc
+{
+    margin: 0;
+color: white;
+}
+#spnerrordesc{
+    margin: 0;
 }
 .popupMOS{
      display: none;
@@ -146,7 +203,7 @@ input {
   
   width:40px;
   padding: 4px 6px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 24px;
   line-height: 20px;
    color: blue; 
@@ -156,16 +213,16 @@ input {
    border-radius: 4px; 
 }
 .btnopenfrom{
-display: inline-block;
-border-style: solid;
-border-width: 1px;
-border-color: rgb(0, 123, 255);
-text-align: center;
-vertical-align: middle;
- cursor: pointer;
- padding:10px;
- background-color: rgb(0, 123, 255);
-    color: rgb(255, 255, 255);
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 123, 255);
+    text-align: center;
+    vertical-align: middle;
+     cursor: pointer;
+     padding:10px;
+     background-color: rgb(0, 123, 255);
+        color: rgb(255, 255, 255);
 }
 .btnopenfrom:hover {
 
@@ -176,3 +233,133 @@ vertical-align: middle;
 #optMOS{
     width:60px;
 }
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 1px 0;
+  position: relative;
+}
+
+
+
+.container {
+  padding: 10px;
+ 
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%;
+  height: 50%;
+    overflow: scroll;
+ /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+li {
+display:inline-flex;
+width:80px;
+list-style-type: none;
+  border-color:burlywood;
+  border-style:solid;
+  border-width: 1px;
+  
+}
+li:hover{
+ 
+  background-color: rgba(195, 182, 39, 0.9);
+  cursor:pointer;
+}
+
+/* The alert message box */
+.alert {
+  margin: 0;
+    padding: 5px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+   opacity: 1;
+  transition: opacity 0.6s;
+}
+
+/* The close button */
+.alertclosebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.alertclosebtn:hover {
+  color: black;
+}
+.spnScore {
+  color: black;
+  padding: 8px;
+  font-family: Arial;
+}
+#spnNOGO{
+    display: none;
+}
+.success {background-color: #4CAF50;color: white;} /* Green */
+.info {background-color: #2196F3;color: white;} /* Blue */
+.warning {background-color: #ff9800;color: white;} /* Orange */
+.danger {background-color: #f44336;color: white;} /* Red */ 
+.other {background-color: #e7e7e7; color: black;} /* Gray */ 
