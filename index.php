@@ -23,19 +23,8 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>ACFT Calculator</title>
         
-        <link rel="stylesheet" type="text/css" href="CSS/acft.css">
-        
-<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></link>-->
-<!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
-  <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
-<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        -->
-        
+        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.0">
+       
     </head>
     <body>
        
@@ -116,7 +105,7 @@ and open the template in the editor.
                  Dead Lift
              </div>
                    <div class="dvTableCellLeft">
-                       <input type="text" class="usrInput"  name="txtdl" maxlength="3" onKeyUp="onDeadliftchange(event)" id="txtdl">
+                       <input type="text" class="usrInput"  name="txtdl" maxlength="3" onKeyUp="onDeadliftchange()" id="txtdl">
                        <span class="spanunit">lbs</span>
              </div>
                  <div class="dvTableCellLeft">
@@ -216,7 +205,7 @@ and open the template in the editor.
 
 </div>       
 <footer class="footer">
-    <h4 style="color:red;">Note:Scores calculated are based on proposed standards.</h4>
+    <h4 style="color:red;">Note:Scores calculated are based on the proposed standards.</h4>
     <h6>&copy;Copyright AcftCalculator.org</h6>
     <img src="Image/running-track.jpg"/>
 </footer>
@@ -225,6 +214,8 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
-<script type="text/javascript" src="JS/acft.js"></script>
+<!--<script type="text/javascript" src="JS/acft.js?v=1.0"></script>-->
+<script type="text/javascript" src="JS/acft.min.js?v1.0"></script>
+
     </body>
 </html>
