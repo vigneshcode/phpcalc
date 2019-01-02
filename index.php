@@ -55,6 +55,7 @@ and open the template in the editor.
 
         <header class="header">
             <h1> ACFT Calculator</h1> 
+            <h5>Army Combat Fitness Test</h5>
         </header>
         
         
@@ -64,7 +65,7 @@ and open the template in the editor.
             
 <div class="dvTable CenterLayout">
     
-       <!--Table row-->
+       <!--Header Table-->
             <div class="dvTable dvsubTable dvtblHeader" > 
              <div class="dvTableRow" >
                  <div class="alert">
@@ -92,10 +93,8 @@ and open the template in the editor.
              </div>
             </div>
                 </div>
-         <!--Table MOS row-->
-           
-         
-         
+       
+       <!--Table Events row-->
           <div class="dvTable dvtblcontent" style="width:100%" >
             <!--Table row-->
             <div class="dvTableRowAlt"> 
@@ -117,7 +116,7 @@ and open the template in the editor.
                  Dead Lift
              </div>
                    <div class="dvTableCellLeft">
-                       <input type="text" class="usrInput"  name="txtdl" maxlength="3" onchange="onDeadliftchange(this.value)" id="txtdl">
+                       <input type="text" class="usrInput"  name="txtdl" maxlength="3" onKeyUp="onDeadliftchange(event)" id="txtdl">
                        <span class="spanunit">lbs</span>
              </div>
                  <div class="dvTableCellLeft">
@@ -130,7 +129,7 @@ and open the template in the editor.
                  Power Throw
              </div>
                    <div class="dvTableCellLeft">
-                 <input type="text" class="usrInput" maxlength="4" name="txtpt" style="width:55px" id="txtpt">
+                 <input type="text" class="usrInput" maxlength="4" name="txtpt"  onKeyUp="onPowerThrowChange()" style="width:55px" id="txtpt">
                  <span class="spanunit">metre's</span>
              </div>
                   <div class="dvTableCellLeft">
@@ -144,7 +143,7 @@ and open the template in the editor.
                  Release Push-ups
              </div>
                    <div class="dvTableCellLeft">
-                 <input type="text" class="usrInput" name="txtPusUp" max="150" id="txtPusUp">
+                       <input type="text" class="usrInput" onkeyup="onPushChange();" name="txtPusUp" maxlength="3" max="150" id="txtPusUp">
                  <span class="spanunit">rep's</span>
              </div>
                   <div class="dvTableCellLeft">
@@ -158,9 +157,9 @@ and open the template in the editor.
                  Sprint/Drag/Carry
              </div>
                    <div class="dvTableCellLeft">
-                 <input type="text" class="usrInput" name="txtspDrCarMin" maxlength="2" id="txtspDrCarMin">
+                       <input type="text" class="usrInput" name="txtspDrCarMin" maxlength="2" max=59 onkeyup="onSprintCarryChange();" id="txtspDrCarMin">
                  <span class="spanunit">mm</span>
-                 <input type="text" class="usrInput" name="txtspDrCarSec" maxlength="2" id="txtspDrCarSec">
+                 <input type="text" class="usrInput" name="txtspDrCarSec" maxlength="2" max=59 onkeyup="onSprintCarryChange();" id="txtspDrCarSec">
                  <span class="spanunit">ss</span>
              </div>
                   <div class="dvTableCellLeft">
@@ -174,7 +173,7 @@ and open the template in the editor.
                  Leg Tuck
              </div>
                    <div class="dvTableCellLeft">
-                 <input type="text" class="usrInput" name="txtLegTuck" max="50" id="txtLegTuck">
+                       <input type="text" class="usrInput" name="txtLegTuck" onkeyup="onlegTuckChange();" max="50" id="txtLegTuck">
                  <span class="spanunit">rep's</span>
              </div>
                   <div class="dvTableCellLeft">
@@ -190,10 +189,10 @@ and open the template in the editor.
                    <div class="dvTableCellLeft">
                        
                        
-                       <input type="text" class="usrInput" name="txt2Mmin" maxlength="2" id="txt2Mmin">
+                       <input type="text" class="usrInput" name="txt2Mmin" onkeyup="onMileChange();" maxlength="2" max=59 id="txt2Mmin">
                      <span class="spanunit">mm</span>
                        
-                  <input type="text" class="usrInput" name="txt2Msec" maxlength="2" id="txt2Msec">
+                     <input type="text" class="usrInput" name="txt2Msec" onkeyup="onMileChange();" maxlength="2" max=59 id="txt2Msec">
                  <span class="spanunit">ss</span>
              </div>
                   <div class="dvTableCellLeft">
@@ -201,13 +200,14 @@ and open the template in the editor.
                 </div>
             </div>
            </div>
-           <!--Table row-->
+       <!--Table footer table-->
            <div class="dvTable dvsubTable dvtblFooter" style="background-color: #e7e3e3;" >
             <div class="dvTableRow"> 
              
            Score: <input type="text" maxlength="3" disabled id="spnacftScore" class="spnScore"></span>
-           <span id="spnNOGO" class="spnScore danger"></span>
+           
            <button id="btnReset" class="btnopenfrom" onclick="resetAll();">Reset</button>
+           <span id="spnNOGO" class="spnScore danger"></span>
              </div>
                    
            </div>
@@ -216,7 +216,7 @@ and open the template in the editor.
 
 </div>       
 <footer class="footer">
-    <h4 style="color:red;">Note:Scores calculated are based on draft scoring sheet.These will be updated once army publishes the standard.</h4>
+    <h4 style="color:red;">Note:Scores calculated are based on proposed standards.</h4>
     <h6>&copy;Copyright AcftCalculator.org</h6>
     <img src="Image/running-track.jpg"/>
 </footer>
