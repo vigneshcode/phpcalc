@@ -29,6 +29,7 @@ and open the template in the editor.
   "@context": "http://schema.org",
 	"@type":"WebSite", 
   "url": "https://www.acftcalculator.org",
+  "keywords":"acft calc,acft calculator,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,US army PT test calculator",
  "name":"ACFT Calculator",
   "description":"Calculator helps to calculate new army fitness PT test(ACFT)."
 }

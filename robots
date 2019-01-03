@@ -1,8 +1,8 @@
 # Rule 1
-User-agent: Googlebot
+user-agent: Googlebot
 
 
 # Rule 2
-User-agent: *
-Allow: /
+user-agent: *
+allow: /
 
