@@ -6,6 +6,11 @@ and open the template in the editor.
 -->
 <html>
     <head>
+         
+        <title>New Army Combat Fitness Test Calculator(ACFT) </title>
+        <meta charset="UTF-8"
+              mame="description" content="ACFT Calculator helps to calculate New Army PT test ACFT. Army Combat Fitness Test(ACFT) consists of 6 events
+              Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run. ">
         <link rel="icon" 
       type="image/png" 
       href="Image/calc.png">
@@ -18,6 +23,15 @@ and open the template in the editor.
   gtag('js', new Date());
 
   gtag('config', 'UA-131523848-1');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+	"@type":"WebSite", 
+  "url": "https://www.acftcalculator.org",
+ "name":"ACFT Calculator",
+  "description":"Calculator helps to calculate new army fitness PT test(ACFT)."
+}
 </script>
 <!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -34,8 +48,7 @@ and open the template in the editor.
      });
 </script>
 
-        <meta charset="UTF-8">
-        <title>ACFT Calculator</title>
+       
         
         <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.0">
        
