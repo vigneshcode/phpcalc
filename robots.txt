@@ -1,0 +1,8 @@
+# Rule 1
+user-agent: Googlebot
+allow:/
+
+# Rule 2
+user-agent: *
+allow: /
+
