@@ -9,7 +9,7 @@ and open the template in the editor.
         <link rel="icon" 
       type="image/png" 
       href="Image/calc.png">
-        
+    <a href="../../Sites/Acft/index.php"></a>
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131523848-1"></script>
 <script>
@@ -18,6 +18,20 @@ and open the template in the editor.
   gtag('js', new Date());
 
   gtag('config', 'UA-131523848-1');
+</script>
+<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-9965736480010626",
+          enable_page_level_ads: true
+     });
+</script>-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2542203718178496",
+          enable_page_level_ads: true
+     });
 </script>
 
         <meta charset="UTF-8">
