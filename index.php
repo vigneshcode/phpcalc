@@ -8,6 +8,12 @@ and open the template in the editor.
     <head>
          
         <title>New Army Combat Fitness Test Calculator(ACFT) </title>
+        
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ACFT - Army Combat Fitness Test Calculator - ACFT Calculator" />
+        <meta property="og:url" content="https://www.acftcalculator.org" />
+        <meta property="og:site_name" content="ACFT" />
         <meta charset="UTF-8"
               mame="description" content="ACFT Calculator helps to calculate New Army PT test ACFT. Army Combat Fitness Test(ACFT) consists of 6 events
               Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run. ">
@@ -29,10 +35,12 @@ and open the template in the editor.
   "@context": "http://schema.org",
 	"@type":"WebSite", 
   "url": "https://www.acftcalculator.org",
-  "keywords":"acft calc,acft calculator,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,US army PT test calculator",
- "name":"ACFT Calculator",
-  "description":"Calculator helps to calculate new army fitness PT test(ACFT)."
+  "keywords":"acft,acft calc,acft calculator,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,US army PT test calculator",
+ "name":"ACFT",
+  "description":"ACFT Calculator helps to calculate New Army PT test ACFT. Army Combat Fitness Test(ACFT) consists of 6 events Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run.",
+  "potentialAction":{"@type":"SearchAction","target":"https://www.acftcalculator.org/?s={search_term_string}","query-input":"required name=search_term_string"}
 }
+
 </script>
 <!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
