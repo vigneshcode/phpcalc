@@ -302,8 +302,8 @@ width="120" height="620"></iframe>
         <?php
         // put your code here
         ?>
-<script type="text/javascript" src="JS/acft.js?v=1.0"></script>
-<!--<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>-->
+<!--<script type="text/javascript" src="JS/acft.js?v=1.0"></script>-->
+<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>
 
     </body>
 </html>
