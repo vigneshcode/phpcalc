@@ -294,7 +294,7 @@ width="120" height="620"></iframe>
 
 <footer class="footer">
     
-    <h6>&copy;Copyright AcftCalculator.org</h6>
+<!--    <h6>&copy;Copyright AcftCalculator.org</h6>-->
     <img src="Image/running-track.jpg" alt="track"/>
 </footer>
             
