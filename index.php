@@ -236,7 +236,7 @@ and open the template in the editor.
              </div>
                    
            </div>
-       <div><iframe style="width:120px;height:200px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=acft99-20&marketplace=amazon&region=US&placement=B00R3N0BDS&asins=B00R3N0BDS&linkId=d9b17a6658d3f9ba94336d20b2bcc23a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+       <div><iframe style="width:90px;height:100px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=acft99-20&marketplace=amazon&region=US&placement=B00R3N0BDS&asins=B00R3N0BDS&linkId=d9b17a6658d3f9ba94336d20b2bcc23a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
 </iframe></div>
        <div><iframe style="width:120px;height:200px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=acft99-20&marketplace=amazon&region=US&placement=B01LR5SM74&asins=B01LR5SM74&linkId=37f20c82eac221a1d46063104c389125&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
             </iframe> </div>
