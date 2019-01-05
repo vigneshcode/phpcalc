@@ -109,7 +109,7 @@ and open the template in the editor.
             </ul>
         </p>    <p>
             Standards are different based on military occupation specialty(MOS), it is divided by “heavy,” “significant" and “moderate” physical demand.
-            Minimum Standards for a "GO"
+            Minimum Standards for a "GO" in each events.
         <ul class="descul">    
             <li>Heavy-70 pts</li>
             <li>Significant- 65 pts</li>
@@ -118,8 +118,8 @@ and open the template in the editor.
             </p>
              <h3 itemprop="name">ACFT Calculator</h3>
              <p>
-                 ACFT Calculator is a smart tool to calculate ACFT score based on MOS selected. As well as shows
-                 each event score & GO/NO-GO indicator, everything happens the moment the user enters their raw score.
+                 ACFT Calculator site helps to calculate ACFT score easily based on MOS selected. Site well show scores for
+                 each event & GO/NO-GO indicator, everything happens the moment the user enters their raw score.
              </p>
         </div>
         
