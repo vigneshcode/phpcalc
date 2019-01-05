@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
          
         <title>New Army Combat Fitness Test Calculator(ACFT) </title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="ACFT - Army Combat Fitness Test Calculator - ACFT Calculator" />
@@ -59,10 +59,10 @@ and open the template in the editor.
 
        
         
-        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.1">
+        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.2">
        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
-    <body>
+    <body itemscope itemtype="http://schema.org/WebPage">
        
 <!-- MODAL-->
 <div id="id01" class="modal">
@@ -79,22 +79,60 @@ and open the template in the editor.
 </div>
 
         <header class="header">
-            <h1> ACFT Calculator</h1> 
-            <h5>Army Combat Fitness Test</h5>
+            <h1 itemprop="name">Army Combat Fitness Test(ACFT) Calculator </h1>
+<!--            <h4> ACFT Calculator</h4> -->
+            
         </header>
         
         
       
             
-<!--           Table-->
+<!--        dvTable CenterLayout   Table-->
             
-<div class="dvTable CenterLayout">
+<div class="HomeRow ">
+      <!--Table Article table-->
+       <div class="Homecolumn HomeLeft" >
+    <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <div class="intro" itemprop="mainContentOfPage">
+            <h3 itemprop="name">Army Combat Fitness Test</h3>
+            
+           
+            <p>
+                The new <span itemprop="name">ACFT</span> is a gender and age neutral army fitness test, it is proposed to take effect late 2020.The ACFT is made up of six events each with 100 point system.
+            <ul class="descul">        
+                <li>Deadlift</li>
+                <li>Standing power throw</li> 
+                <li>T push-ups(hand raised, or release)</li> 
+                <li>Sprint/drag/carry</li>
+                <li>Leg tucks</li>
+                <li>2-mile run</li>
+            </ul>
+        </p>    <p>
+            Standards are different based on military occupation specialty(MOS), it is divided by “heavy,” “significant" and “moderate” physical demand.
+            Minimum Standards for a "GO"
+        <ul class="descul">    
+            <li>Heavy-70 pts</li>
+            <li>Significant- 65 pts</li>
+            <li>Moderate -60 pts</li>
+        </ul>
+            </p>
+             <h3 itemprop="name">ACFT Calculator</h3>
+             <p>
+                 ACFT Calculator is a smart tool to calculate ACFT score based on MOS selected. As well as shows
+                 each event score & GO/NO-GO indicator, everything happens the moment the user enters their raw score.
+             </p>
+        </div>
+        
+    </article>
     
+</div>
+    <div class="Homecolumn HomeCenter">
+   
        <!--Header Table-->
             <div class="dvTable dvsubTable dvtblHeader" > 
              <div class="dvTableRow" >
                  <div class="alert">
-                <span class="alertclosebtn" onclick="alertclose(this);">&times;</span> 
+                <span class="alertclosebtn" onclick="disappearerrorMessage();">&times;</span> 
                  <p id='spnerrordesc'></p>
                  </div>
               </div>
@@ -112,7 +150,8 @@ and open the template in the editor.
                 <div class="dvTableRow" >
                 <p id='spnMOSdesc'></p>
              </div>
-                 <div class="dvTableRow" >
+                 <div class="dvTableRow" >  
+<!--                     <span class="spanunit" style="color:white;">Physical Demand Level</span>-->
                    <div id="dvacftlevel" class="acftlevel">
                       
              </div>
@@ -120,18 +159,20 @@ and open the template in the editor.
                 </div>
        
        <!--Table Events row-->
-          <div class="dvTable dvtblcontent" style="width:100%" >
+          <div class="dvTable dvtblcontent" style="width:90%;" >
+              
             <!--Table row-->
             <div class="dvTableRowAlt"> 
-             <div class="dvTableCellRight" style="background-color:#847520;; height: 50px;">
+             <div class="dvTableCellRight" style="background-color:#847520; color:white;height: 40px;" >
                  Events
-             
+<!--             style="background-color:#847520;; height: 50px;"-->
             </div>
-                 <div class="dvTableCellLeft" style="background-color:#A0B385; height: 50px;">
+                 <div class="dvTableCellLeft" style="background-color:#847520; color:white; height: 40px;" >
                Raw Score
-             
+<!--             style="background-color:#A0B385; height: 50px;"-->
             </div>
-                <div class="dvTableCellLeft" style="background-color:#A0B385; height: 50px;">
+                <div class="dvTableCellLeft" style="background-color:#847520; color:white; height: 40px;" >
+<!--                    style="background-color:#A0B385; height: 50px;"-->
                     Points
                 </div>
             </div>
@@ -141,6 +182,7 @@ and open the template in the editor.
                  Dead Lift
              </div>
                    <div class="dvTableCellLeft">
+<!--                       <label for="txtdl"> Dead Lift</label>-->
                        <input type="text" class="usrInput"  name="txtdl" maxlength="3" onKeyUp="onDeadliftchange()" id="txtdl">
                        <span class="spanunit">lbs</span>
              </div>
@@ -154,6 +196,7 @@ and open the template in the editor.
                  Power Throw
              </div>
                    <div class="dvTableCellLeft">
+<!--                        <label for="txtpt">  Power Throw </label>-->
                  <input type="text" class="usrInput" maxlength="4" name="txtpt"  onKeyUp="onPowerThrowChange()" style="width:55px" id="txtpt">
                  <span class="spanunit">metre's</span>
              </div>
@@ -168,6 +211,7 @@ and open the template in the editor.
                  Release Push-ups
              </div>
                    <div class="dvTableCellLeft">
+<!--                       <label for="txtPusUp"> Release Push-ups </label>-->
                        <input type="text" class="usrInput" onkeyup="onPushChange();" name="txtPusUp" maxlength="3" max="150" id="txtPusUp">
                  <span class="spanunit">rep's</span>
              </div>
@@ -182,6 +226,7 @@ and open the template in the editor.
                  Sprint/Drag/Carry
              </div>
                    <div class="dvTableCellLeft">
+<!--                        <label for="txtspDrCarMin"> Sprint/Drag/Carry </label>-->
                        <input type="text" class="usrInput" name="txtspDrCarMin" maxlength="2" max=59 onkeyup="onSprintCarryChange();" id="txtspDrCarMin">
                  <span class="spanunit">mm</span>
                  <input type="text" class="usrInput" name="txtspDrCarSec" maxlength="2" max=59 onkeyup="onSprintCarryChange();" id="txtspDrCarSec">
@@ -198,6 +243,7 @@ and open the template in the editor.
                  Leg Tuck
              </div>
                    <div class="dvTableCellLeft">
+<!--                         <label for="txtLegTuck"> Leg Tuck </label>-->
                        <input type="text" class="usrInput" name="txtLegTuck" onkeyup="onlegTuckChange();" max="50" id="txtLegTuck">
                  <span class="spanunit">rep's</span>
              </div>
@@ -212,7 +258,7 @@ and open the template in the editor.
                2-Mile Run
              </div>
                    <div class="dvTableCellLeft">
-                       
+<!--                        <label for="txtLegTuck">2-Mile Run</label>-->
                        
                        <input type="text" class="usrInput" name="txt2Mmin" onkeyup="onMileChange();" maxlength="2" max=59 id="txt2Mmin">
                      <span class="spanunit">mm</span>
@@ -232,31 +278,32 @@ and open the template in the editor.
            Score: <input type="text" maxlength="3" disabled id="spnacftScore" class="spnScore"></span>
            
            <button id="btnReset" class="btnopenfrom" onclick="resetAll();">Reset</button>
-           <span id="spnNOGO" class="spnScore danger"></span>
+           <span id="spnNOGO" class="spnNOGO"></span>
              </div>
                    
            </div>
-       <div><iframe style="width:90px;height:100px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=acft99-20&marketplace=amazon&region=US&placement=B00R3N0BDS&asins=B00R3N0BDS&linkId=d9b17a6658d3f9ba94336d20b2bcc23a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe></div>
-       <div><iframe style="width:120px;height:200px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=acft99-20&marketplace=amazon&region=US&placement=B01LR5SM74&asins=B01LR5SM74&linkId=37f20c82eac221a1d46063104c389125&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-            </iframe> </div>
-       <div><iframe style="width:120px;height:200px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=acft99-20&marketplace=amazon&region=US&placement=B0731GNQDK&asins=B0731GNQDK&linkId=94ff52f3c476b92501cfefb99af1459e&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-                </iframe></div>
+    </div>
+    
+       
+        <!--Table ad table-->
+      <div class="Homecolumn HomeRight">
+    <iframe src="amazonad.html" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+width="120" height="620"></iframe>
 </div>
-
+      
 
 <footer class="footer">
-    <h4 style="color:red;">Note:Scores calculated are based on the proposed standards.</h4>
+    
     <h6>&copy;Copyright AcftCalculator.org</h6>
-    <img src="Image/running-track.jpg"/>
+    <img src="Image/running-track.jpg" alt="track"/>
 </footer>
             
        
         <?php
         // put your code here
         ?>
-<!--<script type="text/javascript" src="JS/acft.js?v=1.0"></script>-->
-<script type="text/javascript" src="JS/acft.min.js?v1.0"></script>
+<script type="text/javascript" src="JS/acft.js?v=1.0"></script>
+<!--<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>-->
 
     </body>
 </html>

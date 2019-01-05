@@ -473,7 +473,7 @@ function listMOS(Cursel){
                         for (loopli in selectedMOS){
 
                             var liMOS=document.createElement("li");
-
+//                                 liMOS.setAttribute("class","lipopup");
                             liMOS.setAttribute("data-n",selectedMOS[loopli]);
                             liMOS.innerHTML=loopli;
                             lsMOS.appendChild(liMOS);
@@ -2202,21 +2202,26 @@ function getMOSManual(e){
          }
         
         
-        //Check NO GO & format
+      //Check NO GO & format
          if(isNOGO){
             spnNOGO.innerHTML="NO GO";
-            spnNOGO.style.display="block";
             
+            spnNOGO.setAttribute("style","background-color:red;");
+           spnNOGO.style.display="block";
         }
         else
         {
-           spnNOGO.style.display="none";
+           
+            spnNOGO.innerHTML="GO";
+            spnNOGO.setAttribute("style","background-color:green;");
+             spnNOGO.style.display="block";
+            
         }
         
         
-        //Final Score
-        spnacftScore.value=finalScore;
-        
+      
+         //Final Score
+        spnacftScore.value=finalScore + "/"+ "600";
         
         
     }
@@ -2247,7 +2252,7 @@ function showerrorMessage(msg){
     }
 function alertclose(e){
        var div = e.parentElement;
-    div.style.opacity = "0";
+   
     setTimeout(function(){ div.style.display = "none"; }, 600);
   }
 
@@ -2281,6 +2286,3 @@ function resetAll(){
            divAcftLevel.className="acftlevel";
            divAcftLevel.innerHTML="";
 }
-
-
-    
