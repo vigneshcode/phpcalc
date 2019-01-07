@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
          
-        <title>New Army Combat Fitness Test Calculator(ACFT) </title>
+        <title>ACFT Calculator: Army Combat Fitness Test Calculator </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
@@ -42,24 +42,10 @@ and open the template in the editor.
 }
 
 </script>
-<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-9965736480010626",
-          enable_page_level_ads: true
-     });
-</script>-->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-2542203718178496",
-          enable_page_level_ads: true
-     });
-</script>
 
        
         
-        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.2">
+        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.21">
        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
@@ -81,7 +67,7 @@ and open the template in the editor.
         <header class="header">
             <h1 itemprop="name">Army Combat Fitness Test(ACFT) Calculator </h1>
 <!--            <h4> ACFT Calculator</h4> -->
-            
+    
         </header>
         
         
@@ -89,35 +75,40 @@ and open the template in the editor.
             
 <!--        dvTable CenterLayout   Table-->
             
-<div class="HomeRow ">
+
       <!--Table Article table-->
-       <div class="Homecolumn HomeLeft" >
+       <div id="nobileArti" class="Homecolumn HomeLeft" >
     <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
         <div class="intro" itemprop="mainContentOfPage">
-            <h3 itemprop="name">Army Combat Fitness Test</h3>
             
-           
-            <p>
+            
+           <div class="dvIntro">
+               <h3 itemprop="name">ACFT - Army Combat Fitness Test</h3>
+            <p >
+                
                 The new <span itemprop="name">ACFT</span> is a gender and age neutral army fitness test, it is proposed to take effect late 2020.The ACFT is made up of six events each with 100 point system.
-            <ul class="descul">        
-                <li>Deadlift</li>
-                <li>Standing power throw</li> 
-                <li>T push-ups(hand raised, or release)</li> 
-                <li>Sprint/drag/carry</li>
-                <li>Leg tucks</li>
-                <li>2-mile run</li>
-            </ul>
-        </p>    <p>
+                    <ul class="descul">        
+                        <li>Deadlift</li>
+                        <li>Standing power throw</li> 
+                        <li>T push-ups(hand raised, or release)</li> 
+                        <li>Sprint/drag/carry</li>
+                        <li>Leg tucks</li>
+                        <li>2-mile run</li>
+                    </ul>
+        </p>   
+        <p>
             Standards are different based on military occupation specialty(MOS), it is divided by “heavy,” “significant" and “moderate” physical demand.
             Minimum Standards for a "GO" in each events.
-        <ul class="descul">    
-            <li>Heavy-70 pts</li>
-            <li>Significant- 65 pts</li>
-            <li>Moderate -60 pts</li>
-        </ul>
+                <ul class="descul">    
+                    <li>Heavy-70 pts</li>
+                    <li>Significant- 65 pts</li>
+                    <li>Moderate -60 pts</li>
+                </ul>
             </p>
+           </div>
              <h3 itemprop="name">ACFT Calculator</h3>
              <p>
+                 
                  ACFT Calculator site helps to calculate ACFT score easily based on MOS selected. Site well show scores for
                  each event & GO/NO-GO indicator, everything happens the moment the user enters their raw score.
              </p>
@@ -159,7 +150,7 @@ and open the template in the editor.
                 </div>
        
        <!--Table Events row-->
-          <div class="dvTable dvtblcontent" style="width:90%;" >
+          <div class="dvTable dvtblcontent"  style="width:90%;">
               
             <!--Table row-->
             <div class="dvTableRowAlt"> 
@@ -287,13 +278,13 @@ and open the template in the editor.
        
         <!--Table ad table-->
       <div class="Homecolumn HomeRight">
-    <iframe src="amazonad.html" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+    <iframe id="noamaad" src="amazonad.html" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
 width="120" height="620"></iframe>
 </div>
       
 
 <footer class="footer">
-    
+
 <!--    <h6>&copy;Copyright AcftCalculator.org</h6>-->
     <img src="Image/running-track.jpg" alt="track"/>
 </footer>
@@ -304,6 +295,14 @@ width="120" height="620"></iframe>
         ?>
 <!--<script type="text/javascript" src="JS/acft.js?v=1.0"></script>-->
 <script type="text/javascript" src="JS/acft.min.js?v1.1"></script>
-
+<script type="text/javascript">
+    amzn_assoc_ad_type = "link_enhancement_widget";
+    amzn_assoc_tracking_id = "acft99-20";
+    amzn_assoc_linkid = "ae17aca3523c7e9d0131347948656c80";
+    amzn_assoc_placement = "";
+    amzn_assoc_marketplace = "amazon";
+    amzn_assoc_region = "US";
+</script>
+<script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
     </body>
 </html>

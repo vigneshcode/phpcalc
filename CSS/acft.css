@@ -41,11 +41,34 @@ font-family: 'Roboto', sans-serif,Helvetica;
 .footer{
     text-align: center;
     /*background-image: url("Image/running-track.jpg");*/
-   
+  
 }
 img{
     width:100%;
     height: 200px;
+}
+
+@media screen and (max-width: 640px){
+    body{
+        font-size: 1.0em;
+    }
+    #nobileArti{
+        display: block;
+        width: 100%
+    }
+    .dvIntro{
+         display: none;
+    }
+    #noamaad{
+         display: none;
+    }
+    .HomeCenter{
+       width:100%;
+    }
+    .dvTableRow,.dvTableRowAlt,.dvsubTable,.dvTable{
+        display: none;
+        width:100%;
+    }
 }
 
 .header{
@@ -237,7 +260,7 @@ input[type='text'] {
   width:40px;
   padding: 4px 6px;
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 20px;
    color: blue; 
   vertical-align: middle;
