@@ -179,9 +179,9 @@ and open the template in the editor.
                  <div class="dvTableCellLeft">
                     <input type="text" maxlength="3" data-sc="1" disabled id="spnDlftScore" class="spnScore"></span>
                 </div>
-<!--                  <div style="width:100%;background-color: grey;">
+                  <div style="width:100%;background-color: grey;">
                      <div id="testdv" >"</div>
-                 </div>-->
+                 </div>
             </div>
            
             <!--Table row-->
@@ -296,8 +296,8 @@ width="120" height="620"></iframe>
         <?php
         // put your code here
         ?>
-<!--<script type="text/javascript" src="JS/acft.js?v=1.01"></script>-->
-<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>
+<script type="text/javascript" src="JS/acft.js?v=1.01"></script>
+<!--<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>-->
 <script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
