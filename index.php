@@ -35,16 +35,14 @@ and open the template in the editor.
   "@context": "http://schema.org",
 	"@type":"WebSite", 
   "url": "https://www.acftcalculator.org",
-  "keywords":"acft,acft calc,acft calculator,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,US army PT test calculator",
- "name":"ACFT",
+  "keywords":"acft calculator,acft calc,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,US army PT test calculator",
+ "name":"ACFT Calculator",
   "description":"ACFT Calculator helps to calculate New Army PT test ACFT. Army Combat Fitness Test(ACFT) consists of 6 events Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run.",
   "potentialAction":{"@type":"SearchAction","target":"https://www.acftcalculator.org/?s={search_term_string}","query-input":"required name=search_term_string"}
 }
 
 </script>
 
-       
-        
         <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.21">
        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
@@ -78,15 +76,15 @@ and open the template in the editor.
 
       <!--Table Article table-->
        <div id="nobileArti" class="Homecolumn HomeLeft" >
-    <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-        <div class="intro" itemprop="mainContentOfPage">
+   <article>
+        <div class="intro">
             
             
            <div class="dvIntro">
-               <h3 itemprop="name">ACFT - Army Combat Fitness Test</h3>
+               <h3>ACFT - Army Combat Fitness Test</h3>
             <p >
                 
-                The new <span itemprop="name">ACFT</span> is a gender and age neutral army fitness test, it is proposed to take effect late 2020.The ACFT is made up of six events each with 100 point system.
+                The new ACFT is a gender and age neutral army fitness test, it is proposed to take effect late 2020.The ACFT is made up of six events each with 100 point system.
                     <ul class="descul">        
                         <li>Deadlift</li>
                         <li>Standing power throw</li> 
@@ -106,7 +104,7 @@ and open the template in the editor.
                 </ul>
             </p>
            </div>
-             <h3 itemprop="name">ACFT Calculator</h3>
+             <h3>ACFT Calculator</h3>
              <p>
                  
                  ACFT Calculator site helps to calculate ACFT score easily based on MOS selected. Site well show scores for
@@ -171,6 +169,7 @@ and open the template in the editor.
             <div class="dvTableRow"> 
              <div class="dvTableCellRight" >
                  Dead Lift
+                
              </div>
                    <div class="dvTableCellLeft">
 <!--                       <label for="txtdl"> Dead Lift</label>-->
@@ -180,7 +179,11 @@ and open the template in the editor.
                  <div class="dvTableCellLeft">
                     <input type="text" maxlength="3" data-sc="1" disabled id="spnDlftScore" class="spnScore"></span>
                 </div>
+<!--                  <div style="width:100%;background-color: grey;">
+                     <div id="testdv" >"</div>
+                 </div>-->
             </div>
+           
             <!--Table row-->
             <div class="dvTableRowAlt"> 
              <div class="dvTableCellRight">
@@ -293,8 +296,8 @@ width="120" height="620"></iframe>
         <?php
         // put your code here
         ?>
-<!--<script type="text/javascript" src="JS/acft.js?v=1.0"></script>-->
-<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>
+<script type="text/javascript" src="JS/acft.js?v=1.01"></script>
+<!--<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>-->
 <script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
