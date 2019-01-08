@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
          
-        <title>ACFT Calculator: Army Combat Fitness Test Calculator </title>
+        <title>ACFT Calculator - Army Combat Fitness Test Calculator </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
