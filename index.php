@@ -296,8 +296,8 @@ width="120" height="620"></iframe>
         <?php
         // put your code here
         ?>
-<script type="text/javascript" src="JS/acft.js?v=1.01"></script>
-<!--<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>-->
+<!--<script type="text/javascript" src="JS/acft.js?v=1.01"></script>-->
+<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>
 <script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
