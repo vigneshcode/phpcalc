@@ -846,14 +846,14 @@ function getMOSManual(e){
         //update the total score
        
         spnDlftScore.value=compScore;
-//        var colorrr;
-//        
-//        if(compScore>60)
-//            colorrr="green";
-//        else
-//            colorrr="red";
-//        document.getElementById("testdv").style="width:"+compScore+"px;background-color:"+colorrr+";";
-//        
+        var colorrr;
+        
+        if(compScore>60)
+            colorrr="green";
+        else
+            colorrr="red";
+        document.getElementById("testdv").style="width:"+compScore+"px;background-color:"+colorrr+";";
+        
    
         updateAcftScore();
         
