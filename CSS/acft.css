@@ -15,8 +15,10 @@ font-family: 'Roboto', sans-serif,Helvetica;
 }
 
 .Homecolumn{
-    float: left;
-    
+  position: relative;
+  top:80px;
+  left:auto;
+  float: left;
 }
 .HomeRow:after{
     margin: auto;
@@ -33,26 +35,42 @@ font-family: 'Roboto', sans-serif,Helvetica;
 }
 
 /* Clear floats after the columns */
-.HomeRow:after {
+.Homecolumn:after {
   content: "";
+    
   display: table;
   clear: both;
 }
 .footer{
+    
+    
+    height: 5%;
     text-align: center;
+    bottom: 0px;
+    left:0px;
+    position: fixed;
+    width: 100%;
     /*background-image: url("Image/running-track.jpg");*/
-  
+  background-color: black;
+}
+.footer:after{
+    content: "";
 }
 img{
     width:100%;
     height: 200px;
 }
-
+#playBadge
+{
+    height: 10%;
+        width:30%;
+}
 @media screen and (max-width: 640px){
     body{
         font-size: 1.0em;
     }
     #nobileArti{
+     
         display: block;
         width: 100%
     }
@@ -72,31 +90,32 @@ img{
 }
 
 .header{
+    /*    background-color: #F1E291;
     
-/*    background-color: #F1E291;
-    
-    
-    padding:0px;
+       padding:0px;
     margin: 0px;*/
+    color:yellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
     height:80px;
     text-align: center;
-    background-image: linear-gradient(#D2C376, #9F880E);
-    
-    margin-bottom: 10px;
-    background-color: #F1E291;
+    background-image: linear-gradient(#101010, #333030);
+    /* margin-bottom: 10px; */
+    background-color: #101010;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
-    border-radius: 5px;
-    border-color: #F0D339;
+    /* border-radius: 5px; */
+    border-color: #0e0e0e;
     border-style: solid;
     font-family: Montserrat, sans-serif;
-     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
-  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-   
+    -moz-box-shadow: 1px 5px 5px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 5px 5px rgba(0, 0, 0, .5);
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .header h1{
 /*    padding-top: 2%;*/

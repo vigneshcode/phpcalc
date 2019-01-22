@@ -8,6 +8,7 @@ and open the template in the editor.
     <head>
          
         <title>ACFT Calculator - Army Combat Fitness Test Calculator </title>
+        <meta name="msvalidate.01" content="685E751923C32277DC780A555B6196B7" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
@@ -35,7 +36,7 @@ and open the template in the editor.
   "@context": "http://schema.org",
 	"@type":"WebSite", 
   "url": "https://www.acftcalculator.org",
-  "keywords":"acft calculator,acft calc,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,US army PT test calculator",
+  "keywords":"acft calculator,acft calc,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,acft mos breakdown, army acft standards,acft score chart,US army PT test calculator",
  "name":"ACFT Calculator",
   "description":"ACFT Calculator helps to calculate New Army PT test ACFT. Army Combat Fitness Test(ACFT) consists of 6 events Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run.",
   "potentialAction":{"@type":"SearchAction","target":"https://www.acftcalculator.org/?s={search_term_string}","query-input":"required name=search_term_string"}
@@ -43,7 +44,7 @@ and open the template in the editor.
 
 </script>
 
-        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.21">
+        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.23">
        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
@@ -276,6 +277,11 @@ and open the template in the editor.
              </div>
                    
            </div>
+       
+       <div style="text-align: center;"><a href='https://play.google.com/store/apps/details?id=org.acftcalculator.acft&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' >
+               <img alt='Get it on Google Play' id="playBadge" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+      <p style="margin: 0px;"> <b>ACFT Moblie App</b> </p>
+       </div>
     </div>
     
        
@@ -286,18 +292,19 @@ width="120" height="620"></iframe>
 </div>
       
 
-<footer class="footer">
-
-<!--    <h6>&copy;Copyright AcftCalculator.org</h6>-->
+-<div class="footer">
+    
+  <h6 style="color:yellow ;">&copy;Copyright AcftCalculator.org</h6>
     <img src="Image/running-track.jpg" alt="track"/>
-</footer>
+    
+</div>
             
        
         <?php
         // put your code here
         ?>
-<!--<script type="text/javascript" src="JS/acft.js?v=1.01"></script>-->
-<script type="text/javascript" src="JS/acft.min.js?v1.1"></script>
+
+<script type="text/javascript" src="JS/acft.min.js?v1.2"></script>
 <script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
