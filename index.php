@@ -64,7 +64,7 @@ and open the template in the editor.
 </div>
 
         <header class="header">
-            <h1 itemprop="name">Army Combat Fitness Test(ACFT) Calculator </h1>
+            <h1 itemprop="name">Army Combat Fitness Test- ACFT Calculator </h1>
 <!--            <h4> ACFT Calculator</h4> -->
     
         </header>
@@ -121,7 +121,7 @@ and open the template in the editor.
        <!--Header Table-->
             <div class="dvTable dvsubTable dvtblHeader" > 
              <div class="dvTableRow" >
-                 <div class="alert">
+                 <div class="alert" style="display:none;">
                 <span class="alertclosebtn" onclick="disappearerrorMessage();">&times;</span> 
                  <p id='spnerrordesc'></p>
                  </div>
@@ -131,9 +131,9 @@ and open the template in the editor.
 
                        
                        <input  type="text" id="optMOS" maxlength="4"  onchange="getMOSManual(this.value);">
-                       <button id="btnoff" class="btnopenfrom" onclick="listMOS(1)">Officer</button>
+                        <button id="btnEnl" class="btnopenfrom" onclick="listMOS(3)">Enlisted</button>
                        <button id="btnWar" class="btnopenfrom" onclick="listMOS(2)">Warrant</button>
-                       <button id="btnEnl" class="btnopenfrom" onclick="listMOS(3)">Enlisted</button>
+                      <button id="btnoff" class="btnopenfrom" onclick="listMOS(1)">Officer</button>
                        
 
              </div>
@@ -174,8 +174,8 @@ and open the template in the editor.
              </div>
                    <div class="dvTableCellLeft">
 <!--                       <label for="txtdl"> Dead Lift</label>-->
-                       <input type="text" class="usrInput"  name="txtdl" maxlength="3" onKeyUp="onDeadliftchange()" id="txtdl">
-                       <span class="spanunit">lbs</span>
+                       <input type="text" class="usrInput" placeholder="lbs" name="txtdl" maxlength="3" onKeyUp="onDeadliftchange()" id="txtdl">
+<!--                       <span class="spanunit">lbs</span>-->
              </div>
                  <div class="dvTableCellLeft">
                     <input type="text" maxlength="3" data-sc="1" disabled id="spnDlftScore" class="spnScore"></span>
@@ -192,8 +192,8 @@ and open the template in the editor.
              </div>
                    <div class="dvTableCellLeft">
 <!--                        <label for="txtpt">  Power Throw </label>-->
-                 <input type="text" class="usrInput" maxlength="4" name="txtpt"  onKeyUp="onPowerThrowChange()" style="width:55px" id="txtpt">
-                 <span class="spanunit">metre's</span>
+                 <input type="text" class="usrInput" maxlength="4" name="txtpt"  placeholder="meter's" onKeyUp="onPowerThrowChange()" style="width:55px" id="txtpt">
+<!--                 <span class="spanunit">metre's</span>-->
              </div>
                   <div class="dvTableCellLeft">
                      <input type="text" maxlength="3" disabled data-sc="1" id="spnPowerScore" class="spnScore"></span>
@@ -207,8 +207,8 @@ and open the template in the editor.
              </div>
                    <div class="dvTableCellLeft">
 <!--                       <label for="txtPusUp"> Release Push-ups </label>-->
-                       <input type="text" class="usrInput" onkeyup="onPushChange();" name="txtPusUp" maxlength="3" max="150" id="txtPusUp">
-                 <span class="spanunit">rep's</span>
+                       <input type="text" class="usrInput" placeholder="reps" onkeyup="onPushChange();" name="txtPusUp" maxlength="3" max="150" id="txtPusUp">
+<!--                 <span class="spanunit">rep's</span>-->
              </div>
                   <div class="dvTableCellLeft">
                      <input type="text" maxlength="3" disabled data-sc="1" id="spnPUScore" class="spnScore"></span>
@@ -222,10 +222,10 @@ and open the template in the editor.
              </div>
                    <div class="dvTableCellLeft">
 <!--                        <label for="txtspDrCarMin"> Sprint/Drag/Carry </label>-->
-                       <input type="text" class="usrInput" name="txtspDrCarMin" maxlength="2" max=59 onkeyup="onSprintCarryChange();" id="txtspDrCarMin">
-                 <span class="spanunit">mm</span>
-                 <input type="text" class="usrInput" name="txtspDrCarSec" maxlength="2" max=59 onkeyup="onSprintCarryChange();" id="txtspDrCarSec">
-                 <span class="spanunit">ss</span>
+<input type="text" class="usrInput" placeholder="mm" name="txtspDrCarMin" maxlength="2" max=59  onkeyup="onSprintCarryChange();" id="txtspDrCarMin">
+                 <span class="spanunit">:</span>
+                 <input type="text" class="usrInput" placeholder="ss" name="txtspDrCarSec" maxlength="2" max=59 onkeyup="onSprintCarryChange();" id="txtspDrCarSec">
+<!--                 <span class="spanunit">ss</span>-->
              </div>
                   <div class="dvTableCellLeft">
                      <input type="text" maxlength="3" disabled data-sc="1" id="spnSDragScore" class="spnScore"></span>
@@ -239,8 +239,8 @@ and open the template in the editor.
              </div>
                    <div class="dvTableCellLeft">
 <!--                         <label for="txtLegTuck"> Leg Tuck </label>-->
-                       <input type="text" class="usrInput" name="txtLegTuck" onkeyup="onlegTuckChange();" max="50" id="txtLegTuck">
-                 <span class="spanunit">rep's</span>
+                       <input type="text" class="usrInput" placeholder="reps" name="txtLegTuck" onkeyup="onlegTuckChange();" max="50" id="txtLegTuck">
+<!--                 <span class="spanunit">rep's</span>-->
              </div>
                   <div class="dvTableCellLeft">
                    <input type="text" maxlength="3" disabled data-sc="1" id="spnLtScore" class="spnScore"></span>
@@ -255,11 +255,11 @@ and open the template in the editor.
                    <div class="dvTableCellLeft">
 <!--                        <label for="txtLegTuck">2-Mile Run</label>-->
                        
-                       <input type="text" class="usrInput" name="txt2Mmin" onkeyup="onMileChange();" maxlength="2" max=59 id="txt2Mmin">
-                     <span class="spanunit">mm</span>
+                       <input type="text" class="usrInput" placeholder="mm" name="txt2Mmin" onkeyup="onMileChange();" maxlength="2" max=59 id="txt2Mmin">
+                     <span class="spanunit">:</span>
                        
-                     <input type="text" class="usrInput" name="txt2Msec" onkeyup="onMileChange();" maxlength="2" max=59 id="txt2Msec">
-                 <span class="spanunit">ss</span>
+                     <input type="text" class="usrInput" placeholder="ss" name="txt2Msec" onkeyup="onMileChange();" maxlength="2" max=59 id="txt2Msec">
+<!--                 <span class="spanunit">ss</span>-->
              </div>
                   <div class="dvTableCellLeft">
                     <input type="text" maxlength="3" disabled data-sc="1" id="spnRunScore" class="spnScore"></span>
@@ -294,8 +294,8 @@ width="120" height="620"></iframe>
 
 -<div class="footer">
     
-  <h6 style="color:yellow ;">&copy;Copyright AcftCalculator.org</h6>
-    <img src="Image/running-track.jpg" alt="track"/>
+  <h6 style="color:yellow ;">&copy;Copyright acftcalculator.org</h6>
+<!--    <img src="Image/running-track.jpg" alt="track"/>-->
     
 </div>
             
@@ -304,7 +304,7 @@ width="120" height="620"></iframe>
         // put your code here
         ?>
 
-<script type="text/javascript" src="JS/acft.min.js?v1.2"></script>
+<script type="text/javascript" src="JS/acft.js?v1.3"></script>
 <script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
