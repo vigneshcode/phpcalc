@@ -404,45 +404,8 @@ var MOS={
         '94T': '3Short Range Air Defense System Repairer',
         '94W': '3Electronic Maintenance Supervisor',
         '94Y': '3Integrated Family of Test Equipment(IFTE) Operator',
-        '94Z': '3Senior Electronic Maintenance Supervisor',
-        '120A': '3Construction Engineering Technician',
-        '125D': '3Geospatial Engineering Technician',
-        '131A': '3Field Artillery Targeting Technician',
-        '140A': '3Command & Control Systems Integrator',
-        '140E': '3Air & Missile Defense(AMD) Systems Tactician/Technician',
-        '140X': '3Air Defense Artillery (ADA) Immaterial',
-        '150A': '3Air Traffic & Air Space Management Technician',
-        '150U': '3Unmanned Aircraft Systems Operations Technician',
-        '151A': '3Aviation Maintenance Technician(Nonrated)',
-        '152B': '1OH-58A/C Scout Pilot(RC)',
-        '152C': '1OH-6 Pilot',
-        '152D': '1OH-58D Pilot',
-        '152E': '1AH-64E Pilot',
-        '152F': '1AH-64A Attack Pilot',
-        '152H': '1AH-64D Attack Pilot',
-        '153A': '1Rotary Wing Aviator (Aircraft Nonspecific)',
-        '153B': '3UH-1 Pilot (RC)',
-        '153D': '1UH-60 Pilot',
-        '153E': '1MH-60 Pilot',
-        '153L': '1UH-72A Pilot',
-        '153M': '1UH-60M Pilot',
-        '154C': '1CH-47D Pilot',
-        '154E': '1MH-47 Pilot',
-        '154F': '1CH-47F Pilot',
-        '155A': '3Fixed Wing Aviator (Aircraft Nonspecific)',
-        '155E': '3C-12 Pilot',
-        '155F': '3Jet Aircraft Pilot',
-        '155G': '30-5A/EO-5B/RC-7 Pilot',
-        '170A': '3Cyber Operations Technician',
-        '170B': '3Electronic Warfare Technician (Effective 201810)',
-        '180A': '3Special Forces Warrant Officer',
-        '255A': '3Information Services Technician',
-        '255N': '3Network Management Technician',
-        '255S': '3Information Protection Technician',
-        '255Z': '3Senior Network Operations Technician',
-        '270A': '3Legal Administrator',
-        '290A': '3Electronic Warfare Technician (Rescind 201810)',
-        '311A': '3Cid Special Agent'
+        '94Z': '3Senior Electronic Maintenance Supervisor'
+       
     }
 };
 //Error SPAN
@@ -1464,7 +1427,8 @@ function getMOSManual(e){
         '0:00':0
                         }
       };
-      function onSprintCarryChange(){
+      function onSprintCarryChange(e){
+         // debugger;
            var txtspDrCarMin=document.getElementById("txtspDrCarMin").value;
            var txtspDrCarSec=document.getElementById("txtspDrCarSec").value;
           if(txtspDrCarMin=="" && txtspDrCarSec=="")
@@ -1573,6 +1537,9 @@ function getMOSManual(e){
        
         spnSDragScore.value=compScore;
         updateAcftScore();
+        //debugger;  
+        
+      
           
       }
       
@@ -2548,7 +2515,10 @@ function resetAll(){
     
     for( var i=0;i<inputall.length;i++)
     {
+       if( inputall[i].id !="optMOS")
+       {
        inputall[i].value="";
+        }
     }
     disappearerrorMessage();
      var spnNOGO=document.getElementById("spnNOGO");    
@@ -2562,10 +2532,10 @@ function resetAll(){
 
          }
          
-        
+        /*
            document.getElementById("spnMOSdesc").innerHTML="";
            var divAcftLevel= document.getElementById("dvacftlevel");
            divAcftLevel.setAttribute("data-lv","");
            divAcftLevel.className="acftlevel";
-           divAcftLevel.innerHTML="";
+           divAcftLevel.innerHTML="";*/
 }
