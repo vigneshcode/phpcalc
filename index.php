@@ -64,7 +64,7 @@ and open the template in the editor.
 </div>
 
         <header class="header">
-            <h1 itemprop="name">Army Combat Fitness Test- ACFT Calculator </h1>
+            <h1 itemprop="name">ACFT Calculator-Army Combat Fitness Test</h1>
 <!--            <h4> ACFT Calculator</h4> -->
     
         </header>
