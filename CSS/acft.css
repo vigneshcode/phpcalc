@@ -210,6 +210,9 @@ height: 30px;
 animation-duration: 2s;
 background-color: black;
 color:white;
+border-style: solid;
+border-width: 1px;
+ border-color:whitesmoke;
  
 }
 div .acftlevel3{
@@ -219,13 +222,13 @@ margin-right: 10px;
 width: 120px;
 height: 30px;       
     /*animation-name: test;*/
-
+color:white;
 animation-duration: 2s;
 background-color: #edaa09;
 margin-bottom: 5px;
  border-style: solid;
     border-width: 1px;
-    border-color:#9F880E;
+    border-color:whitesmoke;
 }
 div .acftlevel2{
     text-align: center;
@@ -237,6 +240,10 @@ height: 30px;
      margin-bottom: 5px;
 animation-duration: 2s;
 background-color: #7c786d;
+color:white;
+border-style: solid;
+border-width: 1px;
+ border-color:whitesmoke;
 }
 @keyframes test
 {

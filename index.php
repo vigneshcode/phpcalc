@@ -7,17 +7,14 @@ and open the template in the editor.
 <html>
     <head>
          
-        <title>ACFT Calculator - Army Combat Fitness Test Calculator </title>
+        <title>ACFT Calculator: Army Combat Fitness Test </title>
         <meta name="msvalidate.01" content="685E751923C32277DC780A555B6196B7" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="ACFT - Army Combat Fitness Test Calculator - ACFT Calculator" />
-        <meta property="og:url" content="https://www.acftcalculator.org" />
-        <meta property="og:site_name" content="ACFT" />
-        <meta charset="UTF-8"
-              mame="description" content="ACFT Calculator helps to calculate New Army PT test ACFT. Army Combat Fitness Test(ACFT) consists of 6 events
-              Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run. ">
+        
+        <meta charset="UTF-8">
+              <meta name="description" content="ACFT Calculator- helps to score ACFT test. Army Combat Fitness Test(ACFT) consists of 6 events
+              Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown ">
+       <meta name="keywords" content="acft calculator,acft app,acft mos breakdown">
         <link rel="icon" 
       type="image/png" 
       href="Image/calc.png">
@@ -36,10 +33,10 @@ and open the template in the editor.
   "@context": "http://schema.org",
 	"@type":"WebSite", 
   "url": "https://www.acftcalculator.org",
-  "keywords":"acft calculator,acft calc,new army PT test calculator,acft app,acft cal,army combat fitness test calculator,acft mos breakdown, army acft standards,acft score chart,US army PT test calculator",
+  "keywords":"acft calculator,acft app,acft mos breakdown",
  "name":"ACFT Calculator",
-  "description":"ACFT Calculator helps to calculate New Army PT test ACFT. Army Combat Fitness Test(ACFT) consists of 6 events Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run.",
-  "potentialAction":{"@type":"SearchAction","target":"https://www.acftcalculator.org/?s={search_term_string}","query-input":"required name=search_term_string"}
+  "description":"ACFT Calculator - helps to score ACFT test. Army Combat Fitness Test(ACFT) consists of 6 events Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown"
+  
 }
 
 </script>
@@ -56,7 +53,7 @@ and open the template in the editor.
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
     <div class="container">
-    <label for="uname"><b>Select your MOS</b></label>
+        <label for="uname"><b><h3>ACFT MOS breakdown</h3></b></label>
     <ul id='ulEnlistedMOS'>       
     </ul>
     </div>
@@ -64,7 +61,8 @@ and open the template in the editor.
 </div>
 
         <header class="header">
-            <h1 itemprop="name">ACFT Calculator-Army Combat Fitness Test</h1>
+            <a href="#"><img src="Image/calc_512.png" alt="acft app icon" style="float: left; margin-left: 5px; width: 80px;height: 80px;"/></a>
+            <h1 itemprop="name">ACFT CALCULATOR</h1>
 <!--            <h4> ACFT Calculator</h4> -->
     
         </header>
@@ -79,10 +77,11 @@ and open the template in the editor.
        <div id="nobileArti" class="Homecolumn HomeLeft" >
    <article>
         <div class="intro">
-            <h3>ACFT Calculator</h3>
+            <h3>ACFT Scorer :</h3>
              <p>
-                 The site & app helps to calculate ACFT score easily based on MOS selected. Site well show scores for
-                 each event, GO/NO-GO indicator & ACFT MOS standards or MOS breakdown. calculation happens instantly the moment the user enters their raw score.
+                 This site is the most easiest way to calculate ACFT score. First step is to select your MOS by clicking either enlisted or warrant or officer button, this will show MOS breakdown and corresponding physical demand level is selected upon clicking MOS. Based on the level each event pass/fail is calculated.
+                 Next enter the raw score for each events while entering raw scores points are calculated instantly, if the points are below the standard, red background is displayed around it. When raw scores are entered ACFT score/Total is also calculated instantly.
+                 Site also show GO/NO-GO indicator and a clear button at very bottom.
              </p>
             
            <div class="dvIntro">
@@ -271,7 +270,7 @@ and open the template in the editor.
              
            Score: <input type="text" maxlength="3" disabled id="spnacftScore" class="spnScore"></span>
            
-           <button id="btnReset" class="btnopenfrom" onclick="resetAll();">Reset</button>
+           <button id="btnReset" class="btnopenfrom" onclick="resetAll();">Clear</button>
            <span id="spnNOGO" class="spnNOGO"></span>
              </div>
                    
