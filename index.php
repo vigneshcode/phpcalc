@@ -79,7 +79,11 @@ and open the template in the editor.
        <div id="nobileArti" class="Homecolumn HomeLeft" >
    <article>
         <div class="intro">
-            
+            <h3>ACFT Calculator</h3>
+             <p>
+                 The site & app helps to calculate ACFT score easily based on MOS selected. Site well show scores for
+                 each event, GO/NO-GO indicator & ACFT MOS standards or MOS breakdown. calculation happens instantly the moment the user enters their raw score.
+             </p>
             
            <div class="dvIntro">
                <h3>ACFT - Army Combat Fitness Test</h3>
@@ -105,11 +109,7 @@ and open the template in the editor.
                 </ul>
             </p>
            </div>
-             <h3>ACFT Calculator</h3>
-             <p>
-                 ACFT Calculator site helps to calculate ACFT score easily based on MOS selected. Site well show scores for
-                 each event, GO/NO-GO indicator & ACFT MOS standards or MOS breakdown. calculation happens instantly the moment the user enters their raw score.
-             </p>
+             
         </div>
         
     </article>
