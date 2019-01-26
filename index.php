@@ -107,7 +107,6 @@ and open the template in the editor.
            </div>
              <h3>ACFT Calculator</h3>
              <p>
-                 
                  ACFT Calculator site helps to calculate ACFT score easily based on MOS selected. Site well show scores for
                  each event, GO/NO-GO indicator & ACFT MOS standards or MOS breakdown. calculation happens instantly the moment the user enters their raw score.
              </p>
