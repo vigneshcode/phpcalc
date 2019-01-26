@@ -18,7 +18,7 @@ and open the template in the editor.
         <link rel="icon" 
       type="image/png" 
       href="Image/calc.png">
-    <link rel="canonical" href="https://acftcalculator.org/">
+    <link rel="canonical" href="https://www.acftcalculator.org/">
     <meta name="google-site-verification" content="MM66sjHbU0--FDmj_O_-T9iM-d0OR-WybQ1pWV8evDs" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131523848-1"></script>
