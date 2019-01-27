@@ -22,6 +22,13 @@ and open the template in the editor.
     <meta name="google-site-verification" content="MM66sjHbU0--FDmj_O_-T9iM-d0OR-WybQ1pWV8evDs" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131523848-1"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WRN3PWX');</script>
+<!-- End Google Tag Manager -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -46,7 +53,10 @@ and open the template in the editor.
        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
-       
+       <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRN3PWX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <!-- MODAL-->
 <div id="id01" class="modal">
   <div class="animate modal-content">
@@ -281,6 +291,8 @@ and open the template in the editor.
                <img alt='Get it on Google Play' id="playBadge" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
       <p style="margin: 0px;"> <b>ACFT Moblie App</b> </p>
        </div>
+       
+      
     </div>
     
        
