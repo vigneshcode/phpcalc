@@ -18,7 +18,7 @@ and open the template in the editor.
         <link rel="icon" 
       type="image/png" 
       href="Image/calc.png">
-    <link rel="canonical" href="https://www.acftcalculator.org/">
+    <link rel="canonical" href="https://www.acftcalculator.org/"/>
     <meta name="google-site-verification" content="MM66sjHbU0--FDmj_O_-T9iM-d0OR-WybQ1pWV8evDs" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131523848-1"></script>
@@ -49,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </script>
 
-        <link rel="stylesheet" type="text/css" href="CSS/acft.css?v=1.23">
+        <link rel="stylesheet" type="text/css" href="https://www.acftcalculator.org/CSS/acft.css?v=1.23">
        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
@@ -72,7 +72,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
         <header class="header">
-            <a href="#"><img src="Image/calc_512.png" alt="acft app icon" style="float: left; margin-left: 5px; width: 80px;height: 80px;"/></a>
+            <a href="#"><img src="https://www.acftcalculator.org/Image/calc_512.png" alt="acft app icon" style="float: left; margin-left: 5px; width: 80px;height: 80px;"/></a>
             <h1 itemprop="name">ACFT CALCULATOR</h1>
 <!--            <h4> ACFT Calculator</h4> -->
     
@@ -298,7 +298,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        
         <!--Table ad table-->
       <div class="Homecolumn HomeRight">
-    <iframe id="noamaad" src="amazonad.html" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+    <iframe id="noamaad" src="https://www.acftcalculator.org/amazonad.html" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
 width="120" height="620"></iframe>
 </div>
       
@@ -315,7 +315,7 @@ width="120" height="620"></iframe>
         // put your code here
         ?>
 
-<script type="text/javascript" src="JS/acft.min.js?v1.4"></script>
+<script type="text/javascript" src="https://www.acftcalculator.org/JS/acft.min.js?v1.4"></script>
 <script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
