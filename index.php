@@ -88,7 +88,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        <div id="nobileArti" class="Homecolumn HomeLeft" >
    <article>
         <div class="intro">
-            <h3>ACFT Scorer :</h3>
+            <h3>ACFT Guide :</h3>
              <p>
                  This site is the most easiest way to calculate ACFT score. First step is to select your MOS by clicking either enlisted or warrant or officer button, this will show MOS breakdown and corresponding physical demand level is selected upon clicking MOS. Based on the level each event pass/fail is calculated.
                  Next enter the raw score for each events while entering raw scores points are calculated instantly, if the points are below the standard, red background is displayed around it. When raw scores are entered ACFT score/Total is also calculated instantly.
