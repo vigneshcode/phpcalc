@@ -12,8 +12,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta charset="UTF-8">
-              <meta name="description" content="ACFT Calculator- helps to score ACFT test. Army Combat Fitness Test(ACFT) consists of 6 events
-              Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown ">
+              <meta name="description" content="ACFT Calculator- helps to score Army Combat Fitness Test(ACFT). Test consists of 6 events
+              Deadlift, Standing power throw, hand release pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown ">
        <meta name="keywords" content="acft calculator,acft app,acft mos breakdown">
         <link rel="icon" 
       type="image/png" 
@@ -43,7 +43,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "url": "https://www.acftcalculator.org",
   "keywords":"acft calculator,acft app,acft mos breakdown",
  "name":"ACFT Calculator",
-  "description":"ACFT Calculator - helps to score ACFT test. Army Combat Fitness Test(ACFT) consists of 6 events Deadlift, Standing power throw, T pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown"
+  "description":"ACFT Calculator- helps to score Army Combat Fitness Test(ACFT). Test consists of 6 events Deadlift, Standing power throw, hand release pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown "
   
 }
 
@@ -64,7 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
     <div class="container">
-        <label for="uname"><b><h3>ACFT MOS breakdown</h3></b></label>
+        <label for="uname"><b><h3>MOS breakdown</h3></b></label>
     <ul id='ulEnlistedMOS'>       
     </ul>
     </div>
@@ -96,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
              </p>
             
            <div class="dvIntro">
-               <h3>ACFT - Army Combat Fitness Test</h3>
+               <h3>Army Combat Fitness Test</h3>
             <p >
                 
                 The new ACFT is a gender and age neutral army fitness test, it is proposed to take effect late 2020.The ACFT is made up of six events each with 100 point system.
