@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <meta charset="UTF-8">
               <meta name="description" content="ACFT Calculator- helps to score Army Combat Fitness Test(ACFT). Test consists of 6 events
-              Deadlift, Standing power throw, hand release pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown ">
+              Deadlift, Standing power throw, hand release pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list ACFT MOS Breakdown ">
        <meta name="keywords" content="acft calculator,acft app,acft mos breakdown">
         <link rel="icon" 
       type="image/png" 
@@ -43,7 +43,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "url": "https://www.acftcalculator.org",
   "keywords":"acft calculator,acft app,acft mos breakdown",
  "name":"ACFT Calculator",
-  "description":"ACFT Calculator- helps to score Army Combat Fitness Test(ACFT). Test consists of 6 events Deadlift, Standing power throw, hand release pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list MOS Breakdown "
+  "description":"ACFT Calculator- helps to score Army Combat Fitness Test(ACFT). Test consists of 6 events Deadlift, Standing power throw, hand release pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list ACFT MOS Breakdown "
   
 }
 
@@ -64,7 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
     <div class="container">
-        <label for="uname"><b><h2>ACFT MOS breakdown</h2></b></label>
+        <label for="uname"><b><h3>ACFT MOS breakdown</h3></b></label>
     <ul id='ulEnlistedMOS'>       
     </ul>
     </div>
