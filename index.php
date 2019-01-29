@@ -64,7 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
     <div class="container">
-        <label for="uname"><b><h3>MOS breakdown</h3></b></label>
+        <label for="uname"><b><h2>ACFT MOS breakdown</h2></b></label>
     <ul id='ulEnlistedMOS'>       
     </ul>
     </div>
@@ -73,7 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <header class="header">
             <a href="#"><img src="https://www.acftcalculator.org/Image/calc_512.png" alt="acft app icon" style="float: left; margin-left: 5px; width: 80px;height: 80px;"/></a>
-            <h1 itemprop="name">ACFT CALCULATOR</h1>
+            <h1>ACFT CALCULATOR</h1>
 <!--            <h4> ACFT Calculator</h4> -->
     
         </header>
