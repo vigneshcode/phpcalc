@@ -49,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </script>
 
-        <link rel="stylesheet" type="text/css" href="https://www.acftcalculator.org/CSS/acft.css?v=1.23">
+        <link rel="stylesheet" type="text/css" href="https://www.acftcalculator.org/CSS/acft.css?v=1.25">
        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
@@ -298,8 +298,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        
         <!--Table ad table-->
       <div class="Homecolumn HomeRight">
-    <iframe id="noamaad" src="https://www.acftcalculator.org/amazonad.html" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
-width="120" height="620"></iframe>
+    <iframe id="noamaad" src="https://www.acftcalculator.org/amazonad.html?v=1.1" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+width="160" height="620" ></iframe>
 </div>
       
 
