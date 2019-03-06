@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
          
-        <title>ACFT Calculator: Army Combat Fitness Test </title>
+        <title>ACFT Calculator(Army Combat Fitness Test) </title>
         <meta name="msvalidate.01" content="685E751923C32277DC780A555B6196B7" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
