@@ -1,18 +1,39 @@
-<script type="text/javascript" src="JS/acft.js?v=1.01"></script>
-
-      <div itemscope itemtype="https://schema.org/SoftwareApplication">
-          
-  <span itemprop="name">ACFT Calculator</span> -
-  REQUIRES <span itemprop="operatingSystem">ANDROID</span>
-  <link itemprop="applicationCategory" href="https://schema.org/HealthApplication"/>
-    <a itemprop="downloadUrl" href="https://play.google.com/store/apps/details?id=org.acftcalculator.acft"><img src="https://www.acftcalculator.org/Image/calc_512.png" alt="acft app icon" style="float: left; margin-left: 5px; width: 80px;height: 80px;"/></a>
-  
-  RATING:
-  <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-    <span itemprop="ratingValue">5</span> (
-    <span itemprop="ratingCount">6</span> ratings )
-  </div>
-  <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-    Price: $<span itemprop="price">0.00</span>
-    <meta itemprop="priceCurrency" content="USD" />
-  </div>
+'15W' : '2Unmanned Aircraft Systems Operator',
+'15Y' : '1AH-64D Armanment/Electrical/Avionic System Repairer',
+'15Z' : '3Aircraft Senior Sergeant',
+'17C' : '3Cyber Operations Specialist',
+'17E' : '3Electronic Warfare Specialist',
+'18B' : '1Special Forces Weapon Sergeant',
+'18C' : '1Special Forces Engineer Sergeant',
+'18D' : '1Special Forces Medical Sergeant',
+'18E' : '1Special Forces Communications Sergeant',
+'18F' : '1Special Forces Assistant Operations & Intelligence Sergeant',
+'18X' : '1Special Forces Recruit',
+'18Z' : '3Special Forces Senior Sergeant',
+'19D' : '1Cavalry Scott',
+'19K' : '1M1 Armor Crewman',
+'19Z' : '3Armor Senior Sergeant',
+'25B' : '3Information Technology Specialist',
+'25C' : '3Radio Operator Maintainer',
+'25D' : '3Cyber Network Defender',
+'25E' : '3Electromagnetic Spectrum Manager',
+'25L' : '2Cable Systems Installer-Maintainer',
+'25M' : '3Multimedia Illustrator',
+'25N' : '3Nodal Network Systems Operator-Maintainer',
+'25P' : '3Microwave Systems Operator-Maintainer',
+'25Q' : '3Multichannel Transmission System Operator-Maintainer',
+'25R' : '2Visual Information Equipment Operator-Maintainer',
+'25S' : '3Satellite Communication Systems Operator- Maintainer',
+'25T' : '3Satellite/Microwave Systems Chief',
+'25U' : '3Signal Support Systems Specialist',
+'25V' : '3Combat Documentation/Production Specialist',
+'25W' : '3Telecommunications Operations Chief',
+'25X' : '3Chief Signal NCO',
+'25Z' : '3Visual Information Operations Chief',
+'27D' : '3Paralegal Specialist',
+'29E' : '3Electronic Warfare Specialist',
+'31B' : '2Military Police',
+'31D' : '3CID Special Agent',
+'31E' : '3Internment/Resettlement Specialist',
+'31K' : '2Military Working Dog Handler',
+'35F' : '3Intelligence Analyst',
