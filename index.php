@@ -10,7 +10,7 @@ and open the template in the editor.
         <title>ACFT Calculator(Army Combat Fitness Test) </title>
         <meta name="msvalidate.01" content="685E751923C32277DC780A555B6196B7" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta name="propeller" content="0824c66d4e1331679709fe210183af4a">
         <meta charset="UTF-8">
               <meta name="description" content="ACFT Calculator- helps to score Army Combat Fitness Test(ACFT). Test consists of 6 events
               Deadlift, Standing power throw, hand release pushup, Sprint/drag/carry, Leg tuck, 2 mile run. Site also list ACFT MOS Breakdown ">
@@ -298,7 +298,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        
         <!--Table ad table-->
       <div class="Homecolumn HomeRight">
-    <iframe id="noamaad" src="https://www.acftcalculator.org/amazonad.html?v=1.1" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+    <iframe id="noamaad" src="https://www.acftcalculator.org/amazonad.html?v=1.2" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
 width="160" height="620" ></iframe>
 </div>
       
@@ -316,7 +316,7 @@ width="160" height="620" ></iframe>
         ?>
 
 <script type="text/javascript" src="https://www.acftcalculator.org/JS/acft.min.js?v1.4"></script>
-<script type="text/javascript">
+<!--<script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
     amzn_assoc_linkid = "ae17aca3523c7e9d0131347948656c80";
@@ -324,6 +324,6 @@ width="160" height="620" ></iframe>
     amzn_assoc_marketplace = "amazon";
     amzn_assoc_region = "US";
 </script>
-<script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
+<script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>-->
     </body>
 </html>
