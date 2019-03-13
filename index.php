@@ -315,7 +315,7 @@ width="160" height="620" ></iframe>
         // put your code here
         ?>
 
-<script type="text/javascript" src="https://www.acftcalculator.org/JS/acft.min.js?v1.5"></script>
+<script type="text/javascript" src="https://www.acftcalculator.org/JS/acft.min.js?v1.6"></script>
 <!--<script type="text/javascript">
     amzn_assoc_ad_type = "link_enhancement_widget";
     amzn_assoc_tracking_id = "acft99-20";
