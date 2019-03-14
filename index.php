@@ -298,7 +298,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        
         <!--Table ad table-->
       <div class="Homecolumn HomeRight">
-    <iframe id="noamaad" src="https://www.acftcalculator.org/amazonad.html?v=1.2" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+    <iframe id="noamaad" src="https://www.acftcalculator.org/amazonad.html?v=1.4" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
 width="160" height="620" ></iframe>
 </div>
       
