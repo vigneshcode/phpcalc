@@ -9,6 +9,7 @@ pipeline {
                     sh 'yarn install'
             }
         }
+        }
         stage('Test') {
             steps {
                 echo 'Testing..'
@@ -22,4 +23,5 @@ pipeline {
             }
         }
     }
+}
 }
